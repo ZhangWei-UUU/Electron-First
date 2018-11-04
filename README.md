@@ -30,5 +30,10 @@ yarn add electron-packager --dev
 
 Enter into release-builds folder,you can see some folders for different system, such as xx-darwin-x64,which is suited for MacOS.
 
+Now a simple electron desktop app is finished, obsolutely, It is not enough, it lack apis and font end UI and frame.
 
+## Electron + React
 
+其原理十分简单，首先照常启动一个简单的React Single Page App, 然后创建一个简单Electron的壳，将壳通过http连接到这个SPA即可。
+
+打包文件同理，首先打包React，然后将打包文件连接到Electron. 然后打包Electron即可。
