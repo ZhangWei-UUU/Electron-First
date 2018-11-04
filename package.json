@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ZhangWei-UUU/Electron-First/issues"
   },
-  "homepage": "https://github.com/ZhangWei-UUU/Electron-First#readme"
+  "homepage": "https://github.com/ZhangWei-UUU/Electron-First#readme",
+  "devDependencies": {
+    "electron": "3.0.7",
+    "electron-packager": "12.2.0"
+  }
 }
