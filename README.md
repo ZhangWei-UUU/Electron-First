@@ -28,3 +28,7 @@ yarn add electron-packager --dev
     {"package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds"}
 ```
 
+Enter into release-builds folder,you can see some folders for different system, such as xx-darwin-x64,which is suited for MacOS.
+
+
+
