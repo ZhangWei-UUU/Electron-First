@@ -1,0 +1,24 @@
+{
+  "name": "electron-first",
+  "version": "1.0.0",
+  "description": "play project",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhangWei-UUU/Electron-First.git"
+  },
+  "keywords": [
+    "electron",
+    "react"
+  ],
+  "author": "Zhang Wei WS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhangWei-UUU/Electron-First/issues"
+  },
+  "homepage": "https://github.com/ZhangWei-UUU/Electron-First#readme"
+}
